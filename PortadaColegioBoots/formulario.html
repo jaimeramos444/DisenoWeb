@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="formulario.css" type="text/css" rel="stylesheet">
+    <title>Formulario de contacto</title>
+</head>
+<body>  
+    <div class="contact_form">
+      <div class="formulario">      
+        <h1>INSCRIPCIÓN <br><br> Asignatura Extraescolar</h1>
+            <form action="formenviado.html" method="post">
+                  <p>
+                    <label for="clase" class="colocar_clase">Clase Extraescolar
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <select name="introducir_clase" id="clase" required="obligatorio">
+                        <option>Refuerzo de matemáticas</option>
+                        <option>Refuerzo de Lengua</option>
+                        <option>Ingles</option>
+                        <option>Clases de ajedrez</option>
+                        <option>Clases de baile</option>
+                        <option selected hidden></option>
+                      </select>
+                  </p>       
+                  <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  </p>
+                
+                  <p>
+                    <label for="apellido" class="colocar_apellido">Apellidos
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu apellido">
+                  </p>
+                  <p>
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                  </p>
+              
+                  <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                  </p>      
+                
+                  <p>
+                    <label for="curso" class="colocar_curso">Curso 
+                      <span class="obligatorio">* </span>
+                    </label>
+                      <input class="radio" type="radio" name="curso" id="curso" required="obligatorio"> ESO <br>  
+                      <input class="radio" type="radio" name="curso" id="curso" required="obligatorio"> Bachillerato <br>  
+                      <input class="radio" type="radio" name="curso" id="curso" required="obligatorio"> Formación profesional
+                  </p>     
+                
+                  <p>
+                    <label for="observacion" class="colocar_observacion">Observaciones
+                    </label>                     
+                          <textarea name="introducir_observacion" class="texto_observacion" id="observacion" placeholder="Comunicanos si tienes alguna observación..."></textarea> 
+                  </p>                    
+                
+                  <button type="submit" name="enviar_formulario" id="enviar"><h3>Enviar</h3></button>
+  
+                  <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p>          
+            </form>
+      </div>  
+    </div>
+  
+  </body>
+</html>

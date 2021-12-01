@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url("imagenes/header.png");
+  background-size: cover;
+  
+}
+
+  
+
+
+.contact_form{  
+  width: 30em; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background: rgb(68,53,59);
+  background: linear-gradient(90deg, rgba(68,53,59,1) 0%, rgba(122,70,70,1) 100%); 
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.radio{
+
+  width: 20px;
+  height: 20px;
+
+}
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+select{
+
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+
+
+}
+
+
+
+button{
+  margin-bottom: 20px; 
+  margin-top: 10px;
+  margin-left: 14em; 
+  text-transform: uppercase;
+  background-color: orange; 
+  border-color:orangered; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 10em;   
+  cursor: pointer;
+}
+
+
+button p{
+  color:black;
+  padding-left: 0em;
+}
+
+
+span{
+  color: wheat; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: white;  
+  text-align: center;
+  
+}
+
+
+h1{
+  font-size: 30px;  
+  text-align: center; 
+  padding-bottom: 20px; 
+  color:black;
+  background-color:  rgb(223, 213, 202);
+  border: black 1mm solid;
+  border-radius: 1em;
+  padding: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+
+
+p{
+  font-size: 20px; 
+  color: white; 
+  padding-left: 2em;
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
